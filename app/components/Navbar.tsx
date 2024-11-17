@@ -58,7 +58,7 @@ export default async function Navbar() {
             </div>
           ))} */}
           <h1 className="text-2xl md:text-4xl font-bold">
-            Sensory<span className="text-primary">Wonderland</span>
+            Wonderland<span className="text-primary">SA</span>
           </h1>
 
           <Image

@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
         <div className="flex flex-wrap justify-between">
           <div className="mb-4 w-full sm:w-1/2 lg:w-1/4">
             <h2 className="text-xl font-bold mb-2 text-lg font-semibold text-primary">
-              Sensory Wonderland
+              WonderlandSA
             </h2>
             <ul className="list-none">
               <li>
