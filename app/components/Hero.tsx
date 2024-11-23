@@ -19,7 +19,8 @@ export default async function Hero() {
   return (
     <section className="mx-auto max-w-2xl px-4 sm:pb-6 lg:max-w-7xl lg:px-8">
       <div className="flex h-screen w-screen items-center justify-center">
-        <div className="overflow-hidden rounded-lg bg-gray-100 shadow-lg h-full w-full">
+        <div className="relative overflow-hidden rounded-lg bg-gray-100 shadow-lg h-full w-full">
+          {/* Image */}
           <Image
             src={urlFor(data.image2).url()}
             alt="Great Photo"
@@ -28,6 +29,19 @@ export default async function Hero() {
             height={1080}
             priority
           />
+
+          {/* Text Overlay */}
+          <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-4 text-white">
+            <h1 className="text-4xl font-bold sm:text-5xl md:text-6xl mb-4">
+              Sensory Wonderland
+            </h1>
+            <p className="text-lg sm:text-xl md:text-2xl font-medium">
+              Unleashing the superhero potential in kids!
+            </p>
+            <p className="text-lg sm:text-xl font-medium mt-2">
+              All Minds Are Welcome
+            </p>
+          </div>
         </div>
       </div>
 

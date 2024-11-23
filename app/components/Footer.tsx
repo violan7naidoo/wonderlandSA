@@ -52,17 +52,20 @@ const Footer: React.FC = () => {
             <ul className="list-none">
               <li>
                 <a
-                  href="/"
+                  href="https://wa.me/27750987186"
                   className="hover:text-gray-400 transition duration-200"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  Call K : 082 794 1504
+                  WhatsApp K : 075 098 7186
                 </a>
               </li>
+
               <li></li>
               <li className=" flex items-center mx-auto mt-2 ">
                 <span className="text-xl mr-2">
                   <a
-                    href="https://www.facebook.com/profile.php?id=61556572127307"
+                    href="https://www.facebook.com/profile.php?id=61567156649998"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-gray-400 transition duration-200"
@@ -82,7 +85,7 @@ const Footer: React.FC = () => {
                 </span>
                 <span className="text-xl">
                   <a
-                    href="https://www.instagram.com/sensory_wonderland/"
+                    href="https://www.instagram.com/wonderlandsa_?igsh=a3Z4ZDlrdXZmc3dz&utm_source=qr"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-gray-400 transition duration-200"
